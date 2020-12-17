@@ -257,7 +257,6 @@ namespace Daniel_Arlbring_inlämning_2
                       
 
 
-
                         case "3":
                             Console.WriteLine("Du har valt menyval 3");
                             Console.WriteLine("Radera en medlem i listan:");
