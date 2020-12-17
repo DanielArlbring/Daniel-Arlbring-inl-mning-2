@@ -274,7 +274,7 @@ namespace Daniel_Arlbring_inlämning_2
                             Members.Remove(Members[deletepick]);
                             Console.WriteLine("_____________________");
                             Console.WriteLine("");
-                           
+                            
                             Continue();
                             break;
 
