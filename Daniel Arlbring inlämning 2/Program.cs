@@ -22,7 +22,7 @@ namespace Daniel_Arlbring_inlämning_2
         private string favouriteMusic;
 
         private string drive;
-        
+
 
 
         public GroupMembers()
@@ -187,7 +187,7 @@ namespace Daniel_Arlbring_inlämning_2
                     {
                         Console.Clear();
                         return;
-                        
+
 
                     }
                     else
@@ -235,12 +235,12 @@ namespace Daniel_Arlbring_inlämning_2
                             foreach (var member in Members)
                             {
                                 i++;
-                                
+
                                 Console.WriteLine($"{i}.{member.FirstName} " + $"{member.lastName}");
                             }
                             int memberpick = Convert.ToInt32(Console.ReadLine());
                             memberpick--;
-                           
+
 
 
 
@@ -251,10 +251,10 @@ namespace Daniel_Arlbring_inlämning_2
                             Console.WriteLine($"{Members[memberpick].FirstName}s drivkraft i programmering: {Members[memberpick].drive}");
                             Console.WriteLine("");
                             Console.WriteLine("_____________________");
-                           
+
                             Continue();
                             break;
-                      
+
 
 
                         case "3":
@@ -273,7 +273,7 @@ namespace Daniel_Arlbring_inlämning_2
                             Members.Remove(Members[deletepick]);
                             Console.WriteLine("_____________________");
                             Console.WriteLine("");
-                            
+
                             Continue();
                             break;
 
@@ -281,9 +281,9 @@ namespace Daniel_Arlbring_inlämning_2
 
                             Console.WriteLine("Tack och välkommen åter");
                             condition = 0;
-                            
+
                             break;
-                            // inte säker på att detta är det bästa alternativet, men fick det att fungera.
+                        // inte säker på att detta är det bästa alternativet, men fick det att fungera.
                         default:
                             if (pick != "4" || pick != "3" || pick != "2" || pick != "1" || pick != "q")
                             {
@@ -292,15 +292,15 @@ namespace Daniel_Arlbring_inlämning_2
                             break;
                     }
                 }
-            } 
+            }
         }
-
-
-
-
     }
-
 }
+
+
+
+
+
 
 
 
