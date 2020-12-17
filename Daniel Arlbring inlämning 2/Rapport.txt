@@ -1,0 +1,3 @@
+﻿Jättekul uppgift, många dagar som gick till att fixa slarv misstag i koden. Mitt mål var att få koden att vara så tydlig som möjligt, känner att det finns fortfarande mycket att förbättra med mina cases.
+Get set kändes väldigt smididgt och relativt enkelt att förstå sig på.
+Programmet fungerar som det ska men kan snygga till det markant.
