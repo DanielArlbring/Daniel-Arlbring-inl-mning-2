@@ -17,7 +17,7 @@ namespace Daniel_Arlbring_inlämning_2
         private string family;
         private string pets;
         private string lastJob;
-        private string hobby;
+        private string hoby;
         private string favouriteFood;
         private string favouriteMusic;
 
